@@ -83,7 +83,7 @@ else:
     ON_HEROKU = False
 
 # 🌐 Server Settings
-PORT = int(getenv('PORT', '7023'))  # Port for web server
+PORT = int(getenv('PORT', '8080'))  # Port for web server
 NO_PORT = str(getenv("NO_PORT", False)).lower() in ("true", "1", "yes")  # Disable port in URL
 HAS_SSL = str(getenv("HAS_SSL", False)).lower() in ("true", "1", "yes")  # Use HTTPS if True
 BIND_ADDRESS = getenv("WEB_SERVER_BIND_ADDRESS", "127.0.0.1")  # Server bind address
