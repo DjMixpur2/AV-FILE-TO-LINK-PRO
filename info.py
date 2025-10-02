@@ -6,7 +6,7 @@ from Script import script  # Custom script file with caption & other settings
 # 🚀 Bot Session and Token Information
 SESSION = environ.get('SESSION', 'Webavbot')  # Pyrogram client session name
 
-API_ID = int(environ.get('API_ID', '12300656'))  # Telegram API ID
+API_ID = int(environ.get('API_ID', '12850056'))  # Telegram API ID
 API_HASH = environ.get('API_HASH', '15564ec4a1a2cbef87c99a9aa9e40b34')  # Telegram API Hash
 BOT_TOKEN = environ.get('BOT_TOKEN', '8386499641:AAF6r7UlrilouT4uw72-ID1pJONEIpcvhZI')  # Telegram Bot Token
 
